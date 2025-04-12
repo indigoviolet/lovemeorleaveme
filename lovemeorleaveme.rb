@@ -5,6 +5,8 @@ class Lovemeorleaveme < Formula
   sha256 "REPLACE_WITH_ACTUAL_SHA256_AFTER_CREATING_RELEASE"
   license "MIT"
 
+  depends_on "charmbracelet/tap/gum"
+
   def install
     bin.install "lol.sh" => "lovemeorleaveme"
   end
